@@ -1,0 +1,7 @@
+echo "# zadanie1" >> README.md 
+git init
+git add README.md 
+git commit -m "первая фиксация"
+ветка git -M основная
+git remote add origin https://github.com/Hleb12321414/zadanie1.git
+git push -u origin main
